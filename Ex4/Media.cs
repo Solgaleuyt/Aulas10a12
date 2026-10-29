@@ -42,6 +42,11 @@ namespace Ex4
             {
                 return false;
             }
+
+            if (Idade != Nota1)
+            {
+                return false;
+            }
         }
 
         public string ExibirDados(string estado)
